@@ -24,7 +24,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">SOME PROJECTS I WORKED ON</h3>
                 <p className="subtitle-a">
-                This projects were made wether in a professional contex,by my own.
+                This projects were made wether in a professional context or by my own.
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -44,15 +44,23 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
+                      <div className="col-sm-10">
                         <h2 className="w-title">HBL Mobile App</h2>
+                      <div className="w-more">
+                        <span className="w-cdescription">
+                          <div>
+                            <p>HBL Banking app in Pakistan with 3 million monthly active users.</p>
+                            <p>Responsible for design and development of new features, R&D, and POC.</p>
+                          </div>
+                        </span>
+                      </div>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Java | Kotlin
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
@@ -73,15 +81,23 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
+                      <div className="col-sm-10">
                         <h2 className="w-title">Helpp</h2>
+                        <div className="w-more">
+                        <span className="w-cdescription">
+                          <div>
+                         <p>Home Services platform connecting customers to service professionals.</p> 
+                         <p>Responsible for building new feature, understanding business requirements,communication with designers, backend developers and deploying on the play store </p>
+                          </div>
+                        </span>
+                      </div>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Kotlin
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
@@ -102,15 +118,24 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
+                      <div className="col-sm-10">
                         <h2 className="w-title">Goto Online Shopping</h2>
                         <div className="w-more">
+                        <span className="w-cdescription">
+                          <div>
+                          <p>Multi-Vendor shopping application </p>
+                          <p>Responsibile for building the application from scratch, communication with cross-function team of desginers, backend developers, product team, and managers, deploying on the play store.</p>
+                          
+                          </div>
+                        </span>
+                      </div>
+                        <div className="w-more">
                           <span className="w-ctegory">
-                            Kotlin
+                            Java | Kotlin | MVVM Architecture
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
@@ -130,15 +155,23 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Shifaam HealthApp – Your Healt</h2>
+                      <div className="col-sm-10">
+                        <h2 className="w-title">Shifaam HealthApp – Your Health</h2>
+                        <div className="w-more">
+                        <span className="w-cdescription">
+                          <div>
+                            <p>Health care solution, connecting both patient and doctors. Appointment booking, Lab Test bookings, managing history of labs, appointments, prescriptions etc.</p>
+
+                          </div>
+                        </span>
+                      </div>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Kotlin
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
@@ -157,7 +190,7 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
+                      <div className="col-sm-10">
                         <h2 className="w-title">Shifaam Doctor App</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
@@ -165,7 +198,7 @@ class Portfolio extends React.Component {
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
@@ -185,15 +218,22 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
+                      <div className="col-sm-10">
                         <h2 className="w-title">Talentview App</h2>
                         <div className="w-more">
+                        <span className="w-cdescription">
+                          <div>
+                          Human Resource management application
+                          </div>
+                        </span>
+                      </div>
+                        <div className="w-more">
                           <span className="w-ctegory">
-                            Kotlin
+                            Java | Kotlin
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
@@ -212,15 +252,22 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
+                      <div className="col-sm-10">
                         <h2 className="w-title">Khaity</h2>
+                        <div className="w-more">
+                        <span className="w-cdescription">
+                          <div>
+                          <p>The Khaity Farmers app is developed to facilitate farmers in the whole ecosystem of farming. It’s facilitating farmers at every stage of the farming cycle. Specifically, farmers can buy input, sell output, take technology assistance, and farming advisory in this application. So it’s giving all farming solutions under one umbrella.</p>
+                          </div>
+                        </span>
+                      </div>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Flutter
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
@@ -240,15 +287,25 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
+                      <div className="col-sm-10">
                         <h2 className="w-title">OK Click n Collect</h2>
+                        <div className="w-more">
+                        <span className="w-cdescription">
+                          <div>
+                          <p>
+                          OK, Click n Collect is the easiest way to shop for groceries and household needs from your neighborhood retailers
+                          </p>
+                                              
+                          </div>
+                        </span>
+                      </div>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Flutter
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
@@ -267,15 +324,24 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
+                      <div className="col-sm-10">
                         <h2 className="w-title">Who's Up?!</h2>
+                        <div className="w-more">
+                        <span className="w-cdescription">
+                          <div>
+                          
+                          <p>Provides an interactive platform for people hosting sport activities and for people.</p>
+ <p>Looking to participate in those activities, connecting them together to play the game they love.</p>
+                          </div>
+                        </span>
+                      </div>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Flutter
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
@@ -296,15 +362,25 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
+                      <div className="col-sm-10">
                         <h2 className="w-title">2Clicks Client & Partner</h2>
+                        <div className="w-more">
+                        <span className="w-cdescription">
+                          <div>
+                         <p>2clicks is a smart phone app., which connects the person in need of computer repair to a
+reliable & qualified technician who will visit you on site, anywhere in Toronto. The
+technician diagnoses & trouble shoot your issues related to software and hard drive for
+Widows and Mac operating system.</p>
+                          </div>
+                        </span>
+                      </div>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Java
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
